@@ -29,12 +29,12 @@ int main() {
 
 //output
 /*
-Enter First number: 24
-Enter Second Number: 23
-The addition is : 47
+Enter First number: 15
+Enter Second Number: 14
+The addition is : 29
 The substraction is : 1
-The multiplication is : 552
-The division is : 1.04348
+The multiplication is : 210
+The division is : 1.07142
 
 
 === Code Execution Successful ===
