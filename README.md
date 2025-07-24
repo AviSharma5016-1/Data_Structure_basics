@@ -1,47 +1,58 @@
-Program 1: helloworld.cpp
-AIM:
+### ✅ Program 1: `helloworld.cpp`
+
+**AIM:**
 To write a simple C++ program that displays the message “Hello, World!” on the screen.
 
-THEORY:
-The "Hello, World!" program is traditionally the very first program written by students when learning a new programming language. While it may appear trivial, it plays an important role — it introduces the fundamental structure of a C++ program and tests whether the development environment (compiler, editor, etc.) is set up correctly.
+**THEORY:**
+"Hello, World!" is usually the first program written when learning any programming language. It helps test if the compiler and development setup are working correctly.
 
-In C++, the program begins with the #include<iostream> directive, which allows the use of input-output functionalities. The function int main() serves as the entry point of the program. Inside the main() function, std::cout is used to display output to the console. The statement ends with return 0;, indicating that the program executed successfully.
+In this program:
 
-This program teaches:
+* `#include<iostream>` allows input and output.
+* `int main()` is the starting point of the program.
+* `std::cout` prints the message to the screen.
+* `return 0;` ends the program successfully.
 
-Basic syntax
+**Concepts Learned:**
 
-Header inclusion
+* Basic syntax of a C++ program
+* Including header files
+* Using the main function
+* Output using `cout`
+* Compilation and execution process
 
-Use of main() function
+**CONCLUSION:**
+The program was successfully compiled and executed. The message “Hello, World!” was displayed on the screen. This helped understand how a C++ program is structured and how to use basic output commands.
 
-Standard output using cout
+---
 
-Compilation and execution flow
+### ✅ Program 2: `calculator.cpp`
 
-CONCLUSION:
-The program was successfully compiled and executed. The output “Hello, World!” was displayed on the screen, confirming that the C++ environment was set up correctly. Through this exercise, we understood the basic structure of a C++ program and familiarised ourselves with standard output commands. This simple exercise lays the groundwork for writing more complex programs in the future.
-
-Program: calculator.cpp
-AIM:
+**AIM:**
 To write a C++ program that takes two numbers from the user and performs addition, subtraction, multiplication, and division.
 
-THEORY:
-This program is a basic arithmetic calculator implemented in C++. Instead of using menus or selection logic like switch-case, it directly computes and displays the results of all four operations — addition, subtraction, multiplication, and division — on two user-provided numbers.
+**THEORY:**
+This is a basic calculator program in C++ that performs four arithmetic operations on two numbers entered by the user.
 
-The program begins by taking two floating-point numbers as input using cin. It then performs the operations sequentially and displays the results using cout. A conditional check is used before performing division to ensure the second number is not zero, preventing a runtime error due to division by zero.
+Steps involved:
 
-Key concepts used:
+* Takes two float inputs using `cin`
+* Performs:
 
-Input/output in C++ (cin/cout)
+  * Addition (`+`)
+  * Subtraction (`-`)
+  * Multiplication (`*`)
+  * Division (`/`)
+* Before dividing, it checks if the second number is not zero (to avoid divide-by-zero error)
 
-Arithmetic operators: +, -, *, /
+**Concepts Used:**
 
-Conditional logic using if-else
+* Input/output using `cin` and `cout`
+* Arithmetic operators
+* Conditional logic using `if-else`
+* Float data type for decimal accuracy
 
-Floating-point precision for accurate results
+**CONCLUSION:**
+The program was executed successfully and displayed the results of all four operations. It also handled the divide-by-zero case correctly using a condition. This helped understand how to apply arithmetic logic and condition checks in C++.
 
-This type of calculator is foundational in understanding how data flows through a program and how basic decision-making structures work.
-
-CONCLUSION:
-The program was successfully executed and produced correct results for all four arithmetic operations. It handled division by zero gracefully using conditional checks. This exercise reinforced the use of input/output, arithmetic operators, and if-else statements in C++ and helped build logical thinking for future interactive programs.
+---
